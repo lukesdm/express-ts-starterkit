@@ -5,4 +5,24 @@ This is a barebones template for a web app built with:
 * [TypeScript](https://www.typescriptlang.org/)
 * [Jest](https://jestjs.io/)
 
-See [package.json](package.json) for the available commands.
+# Getting started
+
+* Copy and paste the contents into a folder for your own project, but take care to switch the LICENSE to an appropriate one for you!
+* Update [package.json](package.json) with your chosen app name. Whilst there, note the available commands.
+* Get started with something like this:
+```
+npm install
+```
+Then:
+```
+npm test
+```
+Or:
+```
+npm dev
+```
+Or:
+```
+npm run build
+npm start
+```
