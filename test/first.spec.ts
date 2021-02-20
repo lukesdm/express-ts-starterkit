@@ -1,4 +1,5 @@
-import { app } from "../src/app";
+import { app } from '../src/app';
+
 test('the app initializes', () => {
-    expect(app.mountpath).toBe('/');
+  expect(app.mountpath).toBe('/');
 });

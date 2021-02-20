@@ -2,6 +2,5 @@ import { app } from './app';
 
 const port = process.env.PORT || '8000';
 
-app.listen(port, () => {
-    return console.log(`Server is listening on ${port}`);
-  });
+// eslint-disable-next-line no-console
+app.listen(port, () => console.log(`Server is listening on ${port}`));
